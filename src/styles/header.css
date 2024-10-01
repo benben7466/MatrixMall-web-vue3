@@ -1,0 +1,442 @@
+.header-top {
+    padding: 15px 0
+}
+
+.header-top p {
+    color: #fff;
+    margin-bottom: 0
+}
+
+.header-top-link {
+    color: inherit
+}
+
+.header-top-link:hover {
+    color: inherit;
+    text-decoration: underline
+}
+
+@media screen and (min-width: 992px) {
+    .header-top p {
+        display: inline-block
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header-top p + p {
+        margin-left: 15px;
+        padding-left: 15px;
+        border-left: 1px solid #fff;
+    }
+}
+
+.top-nav-link {
+    color: #fff
+}
+
+.top-nav-link:hover {
+    color: #fe6022
+}
+
+.top-nav-link i {
+    margin-left: 3px
+}
+
+.top-nav-item {
+    color: #fff
+}
+
+.top-nav-item + .top-nav-item {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #fff
+}
+
+@media screen and (max-width: 991px) {
+    .top-nav-item + .top-nav-item {
+        padding-left: 0;
+        border-left: 0
+    }
+}
+
+.top-nav-item:last-child .dropdown-menu {
+    left: auto;
+    right: 0 !important
+}
+
+.header-section {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    -webkit-box-shadow: 0 3px 11.16px .84px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 11.16px .84px rgba(0, 0, 0, 0.1)
+}
+
+@media screen and (min-width:992px) {
+    .header-section {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+}
+
+@media screen and (min-width:992px) {
+    .header-section .col-lg-3 {
+        width: 15%
+    }
+}
+
+
+.main-menu-item {
+    position: relative
+}
+
+.main-menu-item:hover > a, .main-menu-item.active > a {
+    color: #fe6022
+}
+
+.main-menu-item + .main-menu-item {
+    margin-left: 30px
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .main-menu-item + .main-menu-item {
+        margin-left: 20px
+    }
+}
+
+.main-menu-link {
+    font-weight: 600;
+    line-height: 1.733;
+    font-size: 14px;
+    text-transform: uppercase
+}
+
+.sub-menu {
+    text-align: left;
+    position: absolute;
+    z-index: 9999;
+    top: 80px;
+    left: 0;
+    width: 160px;
+    padding: 15px 0;
+    opacity: 0;
+    visibility: hidden;
+    border-top: 2px solid #fe6022;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
+    -webkit-transition: all .4s ease .2s;
+    -o-transition: all .4s ease .2s;
+    transition: all .4s ease .2s
+}
+
+.sub-menu .sub-menu {
+    left: 100%;
+    opacity: 0;
+    visibility: hidden
+}
+
+.sub-menu.blog-sub-menu {
+    left: auto;
+    right: 0
+}
+
+.sub-menu.blog-sub-menu .sub-menu {
+    left: auto;
+    right: 100%;
+    top: 0 !important
+}
+
+.sub-menu li {
+    position: relative
+}
+
+.sub-menu li + li {
+    margin-left: 0 !important
+}
+
+.sub-menu .sub-menu-link {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.375;
+    display: block;
+    padding: 8px 20px
+}
+
+.main-menu li:hover > .sub-menu {
+    top: 50px;
+    visibility: visible;
+    opacity: 1
+}
+
+.main-menu li:hover>.mega-menu {
+    top: 65px;
+    opacity: 1;
+    visibility: visible
+}
+
+.main-menu li a {
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s
+}
+
+.mega-menu {
+    text-align: left;
+    margin: 0 7px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 3;
+    background: #fff;
+    padding: 30px 15px;
+    -webkit-transition: all .4s ease .2s;
+    -o-transition: all .4s ease .2s;
+    transition: all .4s ease .2s;
+    -webkit-box-shadow: 0 3px 11.16px .84px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 11.16px .84px rgba(0, 0, 0, 0.1)
+}
+
+.mega-menu>li {
+    margin: 0
+}
+
+.mega-menu li ul li {
+    margin: 0
+}
+
+.mega-menu li>ul li:last-child a {
+    padding-bottom: 0
+}
+
+.mega-menu li>ul li>a:hover {
+    padding-left: 5px
+}
+
+.mega-menu li ul li.mega-menu-title {
+    margin-bottom: 20px
+}
+
+.mega-menu li ul li.mega-menu-title a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0 !important
+}
+
+.mega-menu li ul li.mega-menu-title a:hover {
+    color: #fe6022
+}
+
+.mega-menu li a {
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: capitalize
+}
+
+.block-cart-btn-wrapp {
+    position: relative;
+    display: inline-block
+}
+
+.block-cart-btn-wrapp:hover .checkout-cart {
+    top: 60px;
+    opacity: 1;
+    visibility: visible
+}
+
+.cart-action {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    background: #fe6022;
+    border-radius: 50%
+}
+
+.cart-action .badge {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    width: 16px;
+    height: 16px;
+    line-height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%
+}
+
+@media screen and (min-width:992px) {
+    .cart-action {
+        margin-left: 20px
+    }
+}
+
+.checkout-cart {
+    top: 80px;
+    position: absolute;
+    right: 0;
+    background: #fff;
+    width: 355px;
+    opacity: 0;
+    visibility: hidden;
+    border-top: 2px solid #fe6022;
+    -webkit-box-shadow: 0 2px 7.44px .56px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 7.44px .56px rgba(0, 0, 0, 0.1);
+    -webkit-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+    z-index: 99
+}
+
+@media screen and (max-width:575px) {
+    .checkout-cart {
+        width: 300px
+    }
+}
+
+@media screen and (max-width:380px) {
+    .checkout-cart {
+        right: -70px
+    }
+}
+
+.checkout-scroll {
+    max-height: 268px;
+    overflow-y: auto
+}
+
+.checkout-cart-list {
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.checkout-img {
+    margin: 0 20px 0 0;
+    position: relative
+}
+
+.product-image {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.product-quantity {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    min-width: 25px;
+    padding: 0;
+    text-align: center;
+    background: #fe6022;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.785;
+    display: inline-block;
+    border-radius: 50%
+}
+
+.checkout-block {
+    text-align: left;
+    position: relative;
+    padding: 0 20px 0 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.product-name {
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.428
+}
+
+.product-price {
+    display: block;
+    margin: 10px 0 0;
+    font-weight: 600;
+    line-height: 1.666;
+    font-size: 16px;
+    color: #32383e
+}
+
+.remove-cart {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 3px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #fe6022;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.166
+}
+
+.remove-cart:hover {
+    color: #fff
+}
+
+.product-size {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 5px 0 0
+}
+
+.checkout-sub-total {
+    padding: 20px 20px;
+    margin-bottom: 20px
+}
+
+.checkout-sub-total .list-group-item {
+    text-transform: capitalize;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border: 0
+}
+
+.checkout-sub-total .list-group-item span {
+    font-weight: 500;
+    color: #32383e;
+    line-height: 1.923
+}
+
+.checkout-action {
+    padding: 0 20px 20px
+}

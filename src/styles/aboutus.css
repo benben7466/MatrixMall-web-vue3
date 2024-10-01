@@ -1,0 +1,141 @@
+.aboutus {
+    display: block;
+    padding: 0 0;
+    list-style: none;
+}
+
+.aboutus-section {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.aboutus-item {
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    padding: 0 !important;
+
+}
+
+.aboutus-item:not(:last-child) {
+    /* 除最后一个之外的其他.aboutus-item 的样式 */
+    margin-bottom: 30px;
+}
+
+.aboutus-item.active {
+    color: #32383e
+}
+
+@media screen and (max-width:450px) {
+    .aboutus-item {
+        margin: 5px 0
+    }
+}
+
+.bread-crumb-title {
+    color: #32383e;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+@media screen and (max-width:575px) {
+    .bread-crumb-title {
+        font-size: 20px
+    }
+}
+
+.aboutus-item a {
+    display: inline-block;
+    position: relative;
+    color: #63696f !important;
+    line-height: 1
+}
+
+.about-content .title {
+    font-weight: 500;
+    color: #32383e;
+    text-transform: capitalize;
+    font-size: 30px;
+    max-width: 900px;
+    margin: 0 auto 20px;
+    line-height: 1.4
+}
+
+@media screen and (max-width:767px) {
+    .about-content .title {
+        font-size: 25px
+    }
+}
+
+.about-info .title {
+    font-size: 34px;
+    font-weight: 500;
+    color: #32383e
+}
+
+.bg-light2 {
+    background: #f5f5f5
+}
+
+
+.contact-title-section {
+    padding-bottom: 55px
+}
+
+.contact-title-section .title {
+    font-weight: 500;
+    color: #32383e;
+    line-height: 1.916;
+    padding-bottom: 5px;
+    font-size: 24px
+}
+
+.contact-title-section p {
+    color: #32383e
+}
+
+.contact-address {
+    padding: 40px;
+    background: #f8f8f8;
+    border-radius: 6px
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-address {
+        padding: 70px
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-address {
+        padding: 70px 180px
+    }
+}
+
+.address-list .title {
+    font-weight: 500;
+    color: #32383e;
+    line-height: 1.25;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    font-size: 24px
+}
+
+@media screen and (max-width: 767px) {
+    .address-list .title {
+        margin-bottom: 15px;
+        font-size: 18px
+    }
+}
+
+.address-list .phone-number, .address-list .mailto {
+    color: #63696f
+}
+
+.address-list .phone-number:hover, .address-list .mailto:hover {
+    color: #2b46a8
+}

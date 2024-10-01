@@ -1,0 +1,69 @@
+.section-py {
+    padding: 20px 0 !important
+}
+
+@media screen and (min-width:1200px) {
+    .section-py {
+        padding: 30px 0 !important
+    }
+}
+
+.phone-call {
+    color: #fe6022;
+    font-size: 24px
+}
+
+.footer-widget .title {
+    font-size: 18px;
+    line-height: 1.666;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px
+}
+
+.footer-widget p {
+    margin-bottom: 30px
+}
+
+.footer-logo {
+    display: inline-block;
+}
+
+.footer-menu li {
+    margin-bottom: 10px
+}
+
+.footer-menu li:last-child {
+    margin-bottom: 0
+}
+
+.footer-menu li .footer-link {
+    color: #63696f;
+    font-size: 14px
+}
+
+.footer-menu li .footer-link:hover {
+    color: #fe6022;
+    padding-left: 5px
+}
+
+.copy-right-section {
+    padding: 20px 0
+}
+
+.copyright-info p {
+    font-size: 13px
+}
+
+.copyright-info p a {
+    color: #fe6022
+}
+
+.copyright-info p a:hover {
+    text-decoration: underline;
+    color: #32383e
+}
+
+.footer-widget .payment{
+    max-height: 140px;
+}

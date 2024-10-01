@@ -1,0 +1,26 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",//设置基础路径，用于模块解析
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": [//指定要包含的额外类型声明
+      "vite/client",
+      "element-plus/global",
+    ]
+  },
+  "include": [//指定需要被 TypeScript 编译器处理的文件或文件夹
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "vite.config.ts"
+  ]
+}

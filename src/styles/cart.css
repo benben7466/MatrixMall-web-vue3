@@ -1,0 +1,177 @@
+.whish-list-section .title {
+    color: #32383e;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #ebebeb
+}
+
+.whish-list-section .table .thead-light th {
+    background-color: #2b46a8;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px
+}
+
+.whish-list-section .table td, .whish-list-section .table th {
+    vertical-align: middle
+}
+
+.whish-list-section img {
+    max-width: 150px
+}
+
+.whish-title {
+    font-size: 15px
+}
+
+.whish-list-price {
+    color: #32383e;
+    font-size: 15px
+}
+
+.your-order-area .title {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 30px
+}
+
+.your-order-area .your-order-wrap {
+    padding: 38px 45px 44px;
+    background: #f6f6f6
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-top ul li {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #111;
+    font-weight: 500
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-top ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-top ul li {
+    font-size: 15px;
+    font-weight: 500;
+    list-style: outside none none;
+    color: #32383e
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-middle {
+    border-bottom: 1px solid #dee0e4;
+    border-top: 1px solid #dee0e4;
+    margin: 29px 0;
+    padding: 19px 0 18px
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-bottom ul li.your-order-shipping {
+    font-size: 15px;
+    color: #32383e;
+    font-weight: 500
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-middle ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin: 0 0 10px
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-bottom ul {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-total {
+    border-bottom: 1px solid #dee0e4;
+    border-top: 1px solid #dee0e4;
+    margin: 18px 0 33px;
+    padding: 17px 0 19px
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-total ul {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-total ul li.order-total {
+    font-weight: 500;
+    color: #32383e;
+    font-size: 15px
+}
+
+.your-order-area .your-order-wrap .your-order-product-info .your-order-total ul li {
+    font-weight: 600;
+    color: #fe6022;
+    font-size: 16px;
+    list-style: outside none none
+}
+
+.your-order-area .payment-accordion:last-child {
+    margin: 0
+}
+
+.your-order-area .payment-accordion {
+    margin: 0 0 16px
+}
+
+.your-order-area .payment-accordion {
+    margin: 0 0 16px
+}
+
+.your-order-area .payment-accordion h4 a,
+.your-order-area .payment-accordion .h4 a {
+    color: #32383e;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500
+}
+
+.your-order-area .payment-accordion .panel-body {
+    padding: 5px 0 0 0
+}
+
+.your-order-area .payment-accordion .panel-body p {
+    padding: 0 0 0 10px
+}
+
+.Place-order {
+    margin-top: 25px
+}
