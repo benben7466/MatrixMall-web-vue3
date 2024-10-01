@@ -1,39 +1,75 @@
-# MatrixMall-web-vue3
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+<div align="center">
+  <img alt="vue3-element-admin" width="80" height="80" src="./src/assets/image/logo.png">
+  <h1>matrix-mall-web-vue3</h1>
 
-#### 软件架构
-软件架构说明
+  <img src="https://img.shields.io/badge/Vue-3.4.29-brightgreen.svg"/>
+  <img src="https://img.shields.io/badge/Vite-5.3.1-green.svg"/>
+  <img src="https://img.shields.io/badge/Element Plus-2.8.0-blue.svg"/>
+  <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
+  <a href="https://gitee.com/benben7466" target="_blank">
+      <img src="https://img.shields.io/badge/Author-贲氏科技-orange.svg"/>
+  </a>
+</div>
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+![](https://foruda.gitee.com/images/1708618984641188532/a7cca095_716974.png "rainbow.png")
 
 
-#### 特技
+## 项目简介
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[matrix-mall-web-vue3](https://gitee.com/benben7466/matrix-mall-web-vue3) 是基于 Vue3 + Vite5+ TypeScript5 + Element-Plus + Pinia 等主流技术栈构建的免费开源的前台展示系统）
+
+## 项目初衷
+
+打造极简的企业级页面脚手架。
+
+
+## 项目特色
+
+- **简洁易用**：精简，无过渡封装 ，易上手。
+
+- **基础设施**：动态路由、按钮权限、国际化、代码规范、常用组件封装。
+
+- **持续更新**：项目持续开源更新，实时更新工具和依赖。
+-
+## 项目预览
+
+![首页](./src/assets/image/intr_01.png)
+
+![单品页](./src/assets/image/intr_02.png)
+
+![购物车](./src/assets/image/intr_03.png)
+
+## 项目启动
+
+```bash
+# 克隆代码
+git clone https://gitee.com/benben7466/matrix-mall-web-vue3.git
+
+# 切换目录
+cd matrix-mall-web-vue3
+
+# 安装依赖
+yarn
+
+# 启动运行
+yarn dev --host
+```
+
+## 🌺 后端系统的展示工程
+| Gitee | Github |
+|-------|------|
+| [MatrixMall-admin-web](https://gitee.com/benben7466/matrix-mall-admin-web)  | [MatrixMall-admin-web](https://github.com/benben7466/MatrixMall-admin-web)  |
+
+## 🌺 后端系统的服务工程
+| Gitee | Github |
+|-------|------|
+| [MatrixMall-admin-SpringBoot](https://gitee.com/benben7466/matrix-mall-admin-spring-boot)  | [MatrixMall-admin-SpringBoot](https://github.com/benben7466/MatrixMall-admin-SpringBoot)  |
+
+
+## 交流与业务洽谈🚀
+>
+> 作者微信：benben7466，添加时请备注您的需求与目的。
+>
+> 如果需要业务洽谈，请访问官网：[贲氏工作室](http://benzhiqiang.w1.luyouxia.net/)，联系电话：134-2628-6424
+> 
